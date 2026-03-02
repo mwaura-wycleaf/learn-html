@@ -1,0 +1,202 @@
+<!--basic html structure-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML full course</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: powderblue;">
+    <h1 style="background-color: powderblue;">My heading</h1>
+    <h2 style="font-family: verdana;">My heading</h2>
+    <h3 style="font-size: 160%;">My heading</h3>
+    <h4>My heading</h4>
+    <h5>My heading</h5>
+    <h6>My heading</h6>
+    <p id="c4">This paragraph
+        conatins alot of lines
+        in the source code, but the browser
+        ignores it
+    </p>
+    <p>
+        I love you
+        I love you
+    </p>
+    <pre>
+        I love you
+        I love yu
+    </pre>
+    <hr>
+    <b>This text is bold</b><br>
+    <strong>This text is important</strong><br>
+    <i>This text is italic</i><br>
+    <em>This text is emphasized</em><br>
+    <small>This is some smaller text</small>
+    <p>Do not forget to buy <mark>milk</mark></p>
+    <p>My favourite color is <del>blue</del></p>
+    <p>My favourite color is <del>blue</del><ins>red</ins></p>
+    <p>This is <sub>Subscripted</sub> text</p>
+    <p>This is <sup>Supscripted</sup> text</p>
+    <p style="background-color: tomato;">This<br> is a<br> paragraph</p>
+    <p title="lemme know">No kidding</p>
+    <a href=" https://google.com">This is a link</a>
+    <img src="3d-render-logo.png" alt="" width="100px" height="100px">
+    <p>Here is a quote of Wf's website</p>
+    <!--quotes-->
+    <blockquote>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, assumenda commodi sapiente quam facilis atque optio, laudantium id exercitationem debitis sunt adipisci.
+    </blockquote>
+    <p> maeve wiley once said: <q>its never about the money </q></p>
+    <p>The <abbr title="World Health Organisation"> WHO</abbr> was founded in 1948</p>
+    <p><cite>The scream</cite> by Edvard Munch. Painted in 1983</p>
+    <bdo dir="rtl">This text will be written from right to left</bdo>
+    <!--This is a comment-->
+    <p>This <!-- great text-->is a paragraph</p>
+    <a href="https://www.w3schools.com">Visit w3schools</a>
+    <a href="https://www.w3schools.com" title="Go to w3Schoolshtm">visit</a>
+    <a href="#c4">Jump to paragraph one</a>
+
+    <p><img src="smiley.gif" alt="smiley face" style="float: right;width:42px;height:42px;">The image will float to the right of the text</p>
+    <!--tables-->
+    <table style="width:100%">
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>wycliff Nganga</td>
+            <td>Vincent Ngugi</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>wycliff Nganga</td>
+            <td>Vincent Ngugi</td>
+            <td>50</td>
+        </tr>
+    </table>
+    <table>
+        <colgroup>
+            <col span="3">
+            <col span="2" style="background-color: pink;">
+        </colgroup>
+        <tr>
+            <th>MON</th>
+            <th>TUE</th>
+            <th>WED</th>
+            <th>MON</th>
+            <th>TUE</th>
+            <th>WED</th>
+        </tr>
+    </table>
+    <!--lists-->
+    <!--unordered lists-->
+    <ul style="list-style-type: disc;">
+     <li>Coffee</li>
+     <li>Tea</li>
+     <li>Milk</li>
+    </ul>
+
+     <ul style="list-style-type: circle;">
+     <li>Coffee</li>
+     <li>Tea</li>
+     <li>Milk</li>
+    </ul>
+
+     <ul style="list-style-type: square;">
+     <li>Coffee</li>
+     <li>Tea</li>
+     <li>Milk</li>
+    </ul>
+
+     <ul style="list-style-type: none;">
+     <li>Coffee</li>
+     <li>Tea</li>
+     <li>Milk</li>
+    </ul>
+    <!--ordered lists-->
+    <ol type="1">
+     <li>Coffee</li>
+     <li>Tea</li>
+     <li>Milk</li>
+    </ol>
+
+     <ol type="A">
+     <li>Coffee</li>
+     <li>Tea</li>
+     <li>Milk</li>
+    </ol>
+
+     <ol type="a">
+     <li>Coffee</li>
+     <li>Tea</li>
+     <li>Milk</li>
+    </ol>
+
+     <ol type="I">
+     <li>Coffee</li>
+     <li>Tea</li>
+     <li>Milk</li>
+    </ol>
+
+     <ol start="50">
+     <li>Coffee</li>
+     <li>Tea</li>
+     <li>Milk</li>
+    </ol>
+
+    <ol start="50" type="i">
+     <li>Coffee</li>
+     <li>Tea</li>
+     <li>Milk</li>
+    </ol>
+
+    <!--description lists-->
+    <dl>
+        <dt>Coffee</dt>
+        <dd>-black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>-white cold drink</dd>
+    </dl>
+
+ <!--The div element-->
+ <p>My name is <div>Wycliff</div> yes i am</p>
+ <div style="width: 300px;margin:auto; background-color:antiquewhite">
+    <h2>London</h2>
+    <p>London is the capital city of England</p>
+    <p>London has over 9 million inhabitants</p>
+ </div>
+
+ <!--class attribute-->
+    <div class="city">
+      <h2>Tokyo</h2>
+      <p>Tokyo is the capital city of Japan</p>
+    </div>
+
+ <!--id attribute-->
+ <h1 id="MyHeader">My Header</h1>
+
+ <!--Buttons-->
+ <button>Click me</button>
+ <p>To make a button unclickable use the disabled attribute as shown</p>
+ <button disabled>Disabled Button</button>
+
+ <!--html js-->
+ <h1>My first javascript</h1>
+ <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">click me to display Date and Time</button>
+
+ <p id="demo"></p>
+
+<!--Semantic elements-->
+  <section>
+  <article>
+  <aside>
+  <header>
+  <main>
+  <mark>
+  <nav>
+  <footer>
+
+</body>
+</html>
