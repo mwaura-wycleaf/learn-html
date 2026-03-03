@@ -1,41 +1,43 @@
 📘 HTML Learning Practice
 
-This repository contains my personal HTML practice while revising and strengthening core web development fundamentals.
+This repository contains my personal HTML practice while strengthening core web development fundamentals.
 
-The file includes multiple HTML concepts explored in a single workspace ("index.html") as part of active learning and experimentation.
+All concepts are currently explored inside a single "index.html" file using structured comments to separate sections.
 
 🚀 Purpose
 
-- Revise HTML fundamentals from scratch
-- Practice concepts by typing and testing everything manually
-- Build consistency through daily coding practice
-- Document my programming journey publicly
+- Rebuild strong HTML foundations
+- Practice by typing and modifying every example manually
+- Track consistent progress publicly
+- Strengthen understanding through experimentation
 
-📚 Topics Covered
+📚 Topics Covered So Far
 
 - HTML structure & elements
-- Text formatting
+- Headings, paragraphs & formatting
+- Styles and colors (RGB, HEX, HSL)
 - Links and images
-- Quotations & comments
-- Colors (RGB, HEX, HSL)
-- Block vs inline elements
-- Basic layout experiments
-- Ongoing HTML Forms practice
+- Lists and tables
+- Block vs Inline elements
+- Div, Classes & Id
+- Semantic HTML
+- Responsive basics
+- HTML Forms (form elements, input types, attributes)
 
 ⚠️ Note
 
-This repository is not beginner-friendly and is not designed as a tutorial.
-It serves as a personal practice environment and assumes prior exposure to basic HTML concepts.
+This repository is not designed as a beginner tutorial.
+It serves as a structured personal practice environment and may assume prior exposure to HTML basics.
 
-🛠️ How It’s Organized
+🛠️ Current Structure
 
-Currently, all practice exists inside a single "index.html" file using comments to separate sections.
-Files may be reorganized into topic-based pages as learning progresses.
+All practice exists inside "index.html", separated using comments for clarity.
+Refactoring into topic-based files may happen as learning progresses.
 
 🎯 Goal
 
-To rebuild strong fundamentals and track real progress through consistent hands-on coding.
+To master HTML fundamentals before transitioning deeper into CSS and JavaScript.
 
 ---
 
-💻 Learning by building, experimenting, and improving step by step.
+Learning by building, experimenting, and improving step by step.
