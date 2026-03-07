@@ -1,6 +1,6 @@
 📘 HTML Learning Practice
 
-This repository contains my personal HTML practice while strengthening core web development fundamentals.
+The above repository contains my personal HTML practice while strengthening core web development fundamentals.
 
 All concepts are currently explored inside a structured practice environment, primarily within a single "index.html" file, separated using comments for clarity.
 
